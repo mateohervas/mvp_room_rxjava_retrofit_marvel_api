@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:id="@+id/cardview_id"
+                                    android:clickable="true"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+                                    android:layout_margin="@dimen/cardview_character_margin"
+                                    cardview:cardCornerRadius="@dimen/cardview_character_corner_radius" tools:ignore="MissingDefaultResource"
+                                    android:focusable="true">
+
+    <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imgCard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/character_image_height"
+                android:scaleType="centerCrop"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/characters"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+        />
+
+        <TextView
+                android:id="@+id/txtCardName"
+                android:textColor="@color/cardview_background_color"
+                android:textSize="@dimen/cardview_character_textsize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="@string/character_name"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/imgCard"
+                android:layout_toLeftOf="@id/imgStar" android:textAlignment="center"
+                />
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                cardview:srcCompat="@drawable/ic_favorite_red_24dp"
+                android:id="@+id/imgStar"
+                android:contentDescription="@string/is_favorite" android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true" android:layout_marginEnd="0dp"
+                android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>

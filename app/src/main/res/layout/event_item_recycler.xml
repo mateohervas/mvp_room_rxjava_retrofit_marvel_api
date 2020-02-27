@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:app="http://schemas.android.com/apk/res-auto"
+                                    xmlns:tools="http://schemas.android.com/tools"
+                                    android:clickable="true"
+                                    android:foreground="?android:attr/selectableItemBackground"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <ImageView
+                android:layout_width="@dimen/event_image_layout_width"
+                android:layout_height="@dimen/event_image_layout_height" tools:srcCompat="@tools:sample/backgrounds/scenic[15]"
+                android:layout_alignParentStart="true" android:layout_marginStart="@dimen/event_image_margin_start"
+                android:layout_alignParentTop="true" android:id="@+id/imgEvent" android:layout_marginTop="@dimen/event_image_margin_top"
+                android:layout_marginBottom="@dimen/event_image_margin_bottom"
+                android:contentDescription="@string/event_image"/>
+        <TextView
+                tools:text="@string/event_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/event_name_margin_start" android:id="@+id/txtEventName"
+                android:layout_marginTop="@dimen/event_name_margin_top" android:layout_alignParentTop="true"/>
+        <TextView
+                tools:text="@string/event_description"
+                android:layout_alignParentTop="true" android:id="@+id/txtEventDescription"
+                android:layout_marginTop="@dimen/event_description_margin_top" android:layout_toEndOf="@+id/imgEvent"
+                android:layout_marginStart="@dimen/event_description_margin_start" android:layout_height="@dimen/event_description_text" android:layout_width="@dimen/event_description_text"/>
+        <ImageView
+                android:layout_width="@dimen/event_star_dimen"
+                android:layout_height="@dimen/event_star_dimen" app:srcCompat="@drawable/ic_favorite_black_24dp"
+                android:id="@+id/imgEventStar"
+                android:layout_marginTop="@dimen/event_star_margin_top" android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" android:layout_marginEnd="@dimen/event_star_margin_end"
+                android:layout_toEndOf="@+id/txtEventDescription"
+                android:contentDescription="@string/is_favorite"
+                android:layout_marginStart="@dimen/event_star_margin_start" android:visibility="invisible"/>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

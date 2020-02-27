@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Marvel App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Marvel App</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="characters">Characters</string>
+    <string name="comics">Comics</string>
+    <string name="events">Events</string>
+
+    <string name="hello_events_fragment">Hello events fragment</string>
+    <string name="hello_comics_fragment">Hello comics fragment</string>
+    <string name="hello_characters_fragment">Hello characters fragment</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="testimage">testImage</string>
+    <string name="character_name">Character Name</string>
+    <string name="marvel_character">Marvel Character</string>
+    <string name="is_favorite">is favorite</string>
+    <string name="character_fragment_title">Character</string>
+    <string name="characters_detail">Characters detail</string>
+    <string name="character_detail_bubble">character detail bubble</string>
+    <string name="empty_string"/>
+    <string name="comic_cover">comic cover</string>
+    <string name="comic_creators">Creators</string>
+    <string name="comic_details">Characters</string>
+    <string name="coming_soon">COMING SOON</string>
+    <string name="exit_question">Do you want to exit?</string>
+    <string name="creator">creator</string>
+    <string name="comics_detail">Comics detail</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_network">no network</string>
+    <string name="event_image">Event Image</string>
+    <string name="event_name">Event Name</string>
+    <string name="event_description">event description</string>
+    
+    <string name="transition_image">image</string>
+    <string name= "transition_quote">quote</string>
+    <string name="transition_attribution">attribution</string>
+    <string name="splash">splash</string>
+    <string name="chip_sample_image">chip sample image</string>
+    <string name="banner_for_collapsing_toolbar">banner for collapsing toolbar</string>
+    <string name="comic_saved">comic saved successfully!</string>
+    <string name="comid_deleted">comic deleted successfully!</string>
+    <string name="event_saved">event saved successfully!</string>
+    <string name="event_deleted">event deleted successfully!</string>
+    <string name="character_saved">character saved successfully!</string>
+    <string name="character_deleted">character deleted successfully!</string>
+</resources>
